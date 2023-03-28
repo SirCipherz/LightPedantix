@@ -77,6 +77,9 @@ class LightPedantix():
 
     def retrieve_page(self):
         most_popular_pages = pd.read_csv('./data/pages_les_plus_consultees.csv').iloc[:,2]
+        mpp2 = pd.read_csv("./data/pages.csv")
+        print(mpp2)
+        time.sleep(10)
         wikipedia.set_lang("fr")
         page_found = False
         while not page_found:
