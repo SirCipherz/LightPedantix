@@ -1,0 +1,7 @@
+Pillow
+wikipedia
+pandas
+spacy
+fuzzywuzzy
+animation
+unidecode
